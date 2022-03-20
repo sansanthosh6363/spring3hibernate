@@ -34,5 +34,5 @@ jobs:
           echo test, and deploy your project.
       - name: Maven build
         run: mvn compile
-      -name: maven test
+      - name: maven test
         run: mvn test
