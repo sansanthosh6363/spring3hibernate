@@ -67,14 +67,9 @@
               </executions>
             </plugin>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-checkstyle-plugin</artifactId>
-				<version>2.14</version>
-			</plugin>
-			<plugin>
     <groupId>org.jacoco</groupId>
     <artifactId>jacoco-maven-plugin</artifactId>
-    <version>0.7.9</version>
+    <version>0.7.7.201606060606</version>
     <executions>
         <execution>
             <goals>
@@ -90,6 +85,11 @@
         </execution>
     </executions>
 </plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-checkstyle-plugin</artifactId>
+				<version>2.14</version>
+			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>findbugs-maven-plugin</artifactId>
