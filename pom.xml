@@ -80,8 +80,8 @@
             <version>2.19.1</version>
 		<configuration>
 			<forkCount>2</forkCount>
-<!-- 			<reuseForks>true</reuseForks>
-			<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine> -->
+			<reuseForks>true</reuseForks>
+			<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
 			</configuration>
             <dependencies>
                 <dependency>
@@ -120,7 +120,7 @@
                     <goals>
                         <goal>check</goal>
                     </goals>
-<!--                     <configuration>
+                    <configuration>
                         <rules>
                             <rule>
                                 <element>PACKAGE</element>
@@ -132,7 +132,7 @@
                                 </limits>
                             </rule>
                         </rules>
-                    </configuration> -->
+                    </configuration>
                 </execution>
             </executions>
         </plugin>
