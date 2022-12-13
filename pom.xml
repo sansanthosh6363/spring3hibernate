@@ -230,7 +230,7 @@
 					<port>11011</port>
 				</configuration>
 			</plugin>
-			<plugin>
+<!-- 			<plugin>
             <groupId>org.jfrog.buildinfo</groupId>
             <artifactId>artifactory-maven-plugin</artifactId>
             <version>3.4.0</version>
@@ -255,7 +255,7 @@
                     </configuration>
                 </execution>
             </executions>
-        </plugin>
+        </plugin> -->
 			
 		</plugins>
 	</build>
