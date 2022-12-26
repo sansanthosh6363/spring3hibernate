@@ -72,7 +72,7 @@
               </executions>
 		     <configuration>   
            <!-- Generate all report formats -->  
-           <format>ALL</format>  
+           <format>XML</format>  
            <!-- Don't use Nexus Analyzer -->  
            <centralAnalyzerEnabled>false</centralAnalyzerEnabled>  
            <!-- Am I the latest version? -->  
