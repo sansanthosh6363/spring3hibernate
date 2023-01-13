@@ -25,9 +25,9 @@
           <url>http://192.168.0.37:8081/artifactory/ext-snapshot-local</url>
         </snapshotRepository>
 		 
-		 <properties>
+<!-- <properties>
     <jmeterThreads>1</jmeterThreads>
-</properties>
+</properties> -->
 	
  </distributionManagement>
 	<reporting>
