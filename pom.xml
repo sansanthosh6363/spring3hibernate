@@ -279,7 +279,7 @@
             </executions>
         </plugin> -->
 			
-			<plugin>
+<!-- 			<plugin>
 		<groupId>com.lazerycode.jmeter</groupId>
 		<artifactId>jmeter-maven-plugin</artifactId>
 		<version>3.6.1</version>
@@ -309,7 +309,7 @@
 				<testFilesDirectory>src/</testFilesDirectory>
 			</configuration>
 	</plugin>
-			
+			 -->
 		</plugins>
 	</build>
 	<version>1.8-SNAPSHOT</version>
