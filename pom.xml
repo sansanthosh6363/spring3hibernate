@@ -297,7 +297,7 @@
 					<goal>jmeter</goal>
 				</goals>
 			</execution>
-			<!-- Failed build on errors in tests -->
+			Failed build on errors in tests
 			<execution>
 				<id>jmeter-check-results</id>
 				<goals>
