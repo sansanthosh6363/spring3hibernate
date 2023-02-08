@@ -41,7 +41,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <testFilesDirectory>src/</testFilesDirectory>
+                    <testFilesDirectory>src/jmeter1.jmx</testFilesDirectory>
                 </configuration>
             </plugin>
         </plugins>
